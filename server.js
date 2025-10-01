@@ -23,7 +23,7 @@ const sleep = ms => new Promise(r => setTimeout(r, ms));
    CALLBACK (postback)
 ========================= */
 // Use seu domínio público aqui se quiser fixar. Para teste local com ngrok, troque esta constante.
-const HARDCODED_CALLBACK = 'https://doacaopeluda.up.railway.app/webhooks/skalepay';
+const HARDCODED_CALLBACK = 'https://freefire.up.railway.app/webhooks/skalepay';
 
 function normalizeCallbackUrl(raw) {
   if (!raw) return null;
